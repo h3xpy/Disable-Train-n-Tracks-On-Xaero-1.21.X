@@ -29,7 +29,7 @@ final class ForbiddenModsCheck {
             "xaerotrainmap", "Xaero Train Map",
             "createtrackmap", "Create Track Map",
             "atlasrailways", "Antique Atlas: Create Train Networks",
-            "sablexaeromaps", "Sable x Xaero's Maps (draws Create contraptions, including trains, on the maps)");
+            "sablexaeromaps", "Create - Xaero's map / Sable Sublevels on Xaero's Maps (draws Create contraptions, including trains, on the maps)");
 
     /** Map mods: any other mod depending on one of them is scanned for Create train references. */
     private static final Set<String> MAP_MODS = Set.of(
