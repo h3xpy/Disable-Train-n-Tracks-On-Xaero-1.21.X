@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hidetrainmap.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "TrainMapSyncMixin"
+  ],
+  "client": [
+    "client.TrainMapManagerMixin",
+    "client.XaeroTrainMapMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
